@@ -26,6 +26,7 @@ const config = {
         test: /\.(gif|jpg|jpeg|png|svg)$/,
         use: [
           {
+          //需要安装：npm install --save-dev url-loader
             loader: 'url-loader',
             options: {
               limit: 1024,
